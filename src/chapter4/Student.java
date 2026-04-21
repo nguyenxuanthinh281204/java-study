@@ -8,7 +8,7 @@ public class Student {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Student(String name1, int age1) {
+	public Student(String name, int age) {
 		this.name = name;
 		this.age = age;
 	}
