@@ -1,8 +1,8 @@
 package chapter4;
 
 public class Student {
-	String name;
-	int age;
+	private String name;
+	private int age;
 
 	public Student() {
 		// TODO Auto-generated constructor stub
@@ -13,8 +13,22 @@ public class Student {
 		this.age = age;
 	}
 
+	public String getName() {
+		return this.name;
+	}
+
+	public int getAge() {
+		return this.age;
+	}
+
+	public void setName(String name1) {
+		this.name = name1;
+
+	}
+
 	public void learnJava() {
 		System.out.println("Learn java");
 
 	}
+
 }
