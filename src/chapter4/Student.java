@@ -3,6 +3,7 @@ package chapter4;
 public class Student {
 	private String name;
 	private int age;
+	private String address;
 
 	public Student() {
 		// TODO Auto-generated constructor stub
@@ -13,12 +14,24 @@ public class Student {
 		this.age = age;
 	}
 
-	public String getName() {
-		return this.name;
+	public int getAge() {
+		return age;
 	}
 
-	public int getAge() {
-		return this.age;
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public String getName() {
+		return name;
 	}
 
 	public void setName(String name1) {
