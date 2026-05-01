@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public class Video33 {
 	public static void main(String[] args) {
-		ArrayList a = new ArrayList();
+		ArrayList<Integer> a = new ArrayList<Integer>();
 		a.add(2);
-		a.add("em");
+		// a.add("em");
 
 		System.out.println(a.toString());
 	}
