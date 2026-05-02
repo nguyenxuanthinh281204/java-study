@@ -25,6 +25,6 @@ public class Video36 {
 		for (int i = 0; i < list.size(); i++) {
 			c += list.get(i);
 		}
-		System.out.println("Tong %.3f " + c);
+		System.out.println("Tong: " + c);
 	}
 }
